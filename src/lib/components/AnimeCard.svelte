@@ -1,7 +1,6 @@
 <script lang='ts'>
     import type {AnimeProp} from '$lib/index'
     let {id,name,image,kind,episodes,score,episodes_aired, }:AnimeProp = $props()
-    import { fade } from 'svelte/transition';
 </script>
 
 <div class="max-w-sm rounded relative w-full" >

@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
-
+    
+    let { children } = $props();
    
   </script>
 
@@ -21,7 +22,7 @@
       <img src='/anime.png' alt="anime"  class="object-contain h-full " />
     </div>
   </header>
-  <slot />
+  {@render children()}
 
   <footer class="sm:px-16 py-4 px-8 flex justify-between items-center gap-2 flex-wrap bg-[#161921]" >
     <p class="text-base font-bold text-white">@2023 EpicAnimeVault</p>
