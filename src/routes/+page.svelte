@@ -9,7 +9,7 @@
 </script>
 
 
-      <div class="max-w-7xl mx-auto bg-[#0F1117]"   id='main'>
+      <div class="max-w-7xl mx-auto bg-[#0F1117]"   >
         <main class="sm:p-16 py-16 px-8 flex flex-col gap-10">
             <h2 class="text-3xl text-white font-bold">Explore Anime </h2>
       
