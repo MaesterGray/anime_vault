@@ -2,7 +2,6 @@
 	import type { AnimeProp } from "$lib";
   import { fetchNewData } from "$lib/utils";
   import AnimeCard from "./AnimeCard.svelte";
-  import {browser} from '$app/environment'
   let pagenumber = $state(1)
 
   let ancestor:HTMLElement ;
@@ -32,11 +31,11 @@ fetching=false
 }
 $effect(()=>{
   if (ancestor) {
-    if (browser) {
+    
  let observer = new IntersectionObserver(()=>{getNewData(),options})
  observer.observe(ancestor)
     
-  }
+  
 
 //   
   }
